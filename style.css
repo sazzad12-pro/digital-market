@@ -1,0 +1,14 @@
+#digital {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  /* identical to box height */
+
+  text-align: center;
+
+  /* Dark 02 */
+
+  color: #4a4a4a;
+}
