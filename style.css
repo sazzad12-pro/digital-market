@@ -34,14 +34,12 @@
   border-radius: 5px;
 }
 .discover {
-  border: 1px solid black;
   width: auto;
   height: auto;
   display: flex;
   justify-content: center;
 }
 .discover-1 {
-  border: 1px solid darkgoldenrod;
   width: 606px;
   height: 190px;
   margin-top: 20px;
@@ -51,7 +49,7 @@
   height: 806px;
 }
 .register {
-  width: 1320px;
+  width: auto;
   height: 300px;
   background: #289bde;
   border-radius: 5px;
@@ -69,6 +67,37 @@
 
   border: 1px solid #ffffff;
   border-radius: 5px;
+}
+.fa-solid {
+  color: rgba(48, 48, 9, 0.362);
+}
+.Success {
+  border: 1px solid #e8e8e8;
+  padding: 10px;
+}
+.foot-1 {
+  width: auto;
+  height: 472px;
+  margin-top: 25px;
+  background: #161616;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.foot-2 {
+  width: 321px;
+  height: 212px;
+}
+.foot-3 {
+  color: #ffffff;
+}
+#break {
+  border-right: 1px solid #ffffff;
+  border-width: 4px;
+  margin-left: 10px;
+}
+.fa-brands {
+  color: white;
 }
 /* mobail device viwe */
 @media only screen and (max-width: 576px) {
