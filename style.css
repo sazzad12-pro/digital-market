@@ -4,11 +4,32 @@
   font-weight: 600;
   font-size: 40px;
   line-height: 60px;
-  /* identical to box height */
 
   text-align: center;
 
-  /* Dark 02 */
-
   color: #4a4a4a;
+}
+#carosel-1 {
+  width: auto;
+  height: 700px;
+  border-radius: 5px;
+}
+
+#img {
+  filter: blur(5px);
+  width: auto;
+  height: 700px;
+}
+.middle {
+  width: 671px;
+  height: 336px;
+  margin-left: 20px;
+}
+#btn {
+  width: 182px;
+  height: 56px;
+
+  background: #289bde;
+  border: 1px solid #289bde;
+  border-radius: 5px;
 }
