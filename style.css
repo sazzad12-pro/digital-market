@@ -33,3 +33,37 @@
   border: 1px solid #289bde;
   border-radius: 5px;
 }
+.discover {
+  border: 1px solid black;
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+.discover-1 {
+  border: 1px solid darkgoldenrod;
+  width: 606px;
+  height: 190px;
+  margin-top: 20px;
+}
+/* mobail device viwe */
+@media only screen and (max-width: 576px) {
+  #img {
+    filter: blur(5px);
+    width: 335px;
+    height: 262px;
+  }
+  .middle {
+    width: 274px;
+    height: 184px;
+  }
+  #btn {
+    width: 93px;
+    height: 24px;
+    background: #289bde;
+
+    text-align: center;
+
+    color: #ffffff;
+  }
+}
